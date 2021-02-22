@@ -1,6 +1,6 @@
 <html>
 <body>
-<h1>Welcome To Dinesh</h1>
+<h1>Welcome Dinesh</h1>
 </body>
 <body style="color:red;">
  <div class="container">
