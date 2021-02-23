@@ -18,5 +18,11 @@ git credentialsId: 'ddea26d1-8ba1-4472-b2f1-8eba02a01ead', url: 'https://github.
     sh "mvn sonar:sonar"
 }
 	    }
+		
+	}
+	stage('nexus'){
+	    steps{
+	        sh 'mvn deploy'
+	    }
 	}
 }}
